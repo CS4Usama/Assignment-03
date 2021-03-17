@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <!--Link to go back Home Page-->
+    <a href="../index.html">Home</a>
+    <h1>Sign Up Page</h1>
+
+    <!--Sign Up Form-->
+    <form>
+        <div>
+            First Name: <input type="text" name="First Name" size="20" maxlength="25" placeholder="Enter Your First Name" required>
+        </div>
+        <div>
+            Last Name: <input type="text" name="Last Name" size="20" maxlength="25" placeholder="Enter Your Last Name">
+        </div>
+        <div>
+            E-Mail: <input type="email" name="E-Mail" size="20" maxlength="50" placeholder="Enter Your E-Mail" required>
+        </div>
+        <div>
+            Username: <input type="text" name="Username" size="20" maxlength="50" placeholder="Enter Your Username" required>
+        </div>
+        <div>
+            Password: <input type="password" name="Password" size="20" maxlength="20" placeholder="Enter Your Password" required>
+        </div>
+        <div>
+            Date of Birth: <input type="date" name="Date" required>
+        </div>
+                <br>
+        <div>
+            <textarea name="Hobby" cols="25" rows="4">Enter Your Hobbies</textarea>
+        </div>
+        <div>
+            Gender: <input type="radio" name="Gender" id="Male" value="Male">
+                        <label for="Male">Male</label>
+                    <input type="radio" name="Gender" id="Female" value="Female" required>
+                        <label for="Female">Female</label>
+        </div>
+        <div>
+            Select Your Favorite Food: <input type="checkbox" name="Favorite Food" id="Pizza" value="Pizza">
+                                            <label for="Pizza">Pizza</label>
+                                       <input type="checkbox" name="Favorite Food" id="Burger" value="Burger">
+                                            <label for="Burger">Burger</label>
+                                       <input type="checkbox" name="Favorite Food" id="Biryani" value="Biryani">
+                                            <label for="Biryani">Biryani</label>
+        </div>
+        <div>
+                Select Your City:
+            <select name="City">
+                <option value="Gojra">Gojra</option>
+                <option value="Faisalabad">Faisalabad</option>
+                <option value="Toba Tek Singh">Toba Tek Singh</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Peshawar">Peshawar</option>
+                <option value="Multan">Multan</option>
+                <option value="Quetta">Quetta</option>
+            </select>
+        </div>
+        <div>
+            Upload Your Picture: <input type="file" name="Image" accept="image/*">
+        </div>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>
